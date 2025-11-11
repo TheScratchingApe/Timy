@@ -315,10 +315,10 @@ bird.animations[1].sprite.src = "img/bird/b1.png";
 bird.animations[2].sprite.src = "img/bird/b2.png";
 bird.animations[3].sprite.src = "img/bird/b0.png";
 SFX.start.src = "sfx/start.wav";
-SFX.flap.src = "sfx/flap.wav";
+SFX.flap.src = "sfx/flap.mp3";
 SFX.score.src = "sfx/score.wav";
 SFX.hit.src = "sfx/hit.wav";
-SFX.die.src = "sfx/die.wav";
+SFX.die.src = "sfx/die.mp3";
 
 function gameLoop() {
   update();
